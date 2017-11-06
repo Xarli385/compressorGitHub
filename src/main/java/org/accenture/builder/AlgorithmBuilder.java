@@ -8,7 +8,11 @@ public class AlgorithmBuilder {
 	private String operator;
 
 	public AlgorithmBuilder() {
-
+		name = "";
+		maximumNumberOfEvaluations = 10;
+		maximumComputingTime = 10;
+		memoryRequirement = 20;
+		operator = "";
 	}
 
 	public AlgorithmBuilder setName(String name) {
